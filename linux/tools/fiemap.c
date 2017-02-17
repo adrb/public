@@ -140,7 +140,7 @@ int main( int argc, char *argv[] ) {
         while ( (opt=getopt(argc,argv,"hn:op")) != -1 ) {
                 switch( opt ) {
                 case 'n':
-                        MAX_EXTENTS_NUM = *optarg;
+                        MAX_EXTENTS_NUM = atoi(optarg);
                 break;
                 case 'o':
                         ondisk_size = true;
