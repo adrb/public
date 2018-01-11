@@ -1,5 +1,5 @@
 /*
- * Measure cached vs non-cached memory read on ARM
+ * Measure cached vs non-cached memory read
  * 
  * Adrian Brzezinski (2018) <adrbxx at gmail.com>
  * License: GPLv2+
